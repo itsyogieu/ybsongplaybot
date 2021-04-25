@@ -11,13 +11,13 @@ from YogeshBots.sql.chat_sql import add_chat_to_db
 start_text = """
 வணக்கம்! [{}](tg://user?id={}),
 
-நான் Play Song Bot! [🎶]
+நான் Play Song Bot! [🎶](https://telegra.ph/file/34e8b5cd572fddadf6115.jpg)
 
 I'M Music Bot By YogeshBots  🤖
 
-உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... 🥰🤗🥰
+உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... ☺️💙
 
-ex :- ```/song  marandhaye```
+Eg :- ```/song  marandhaye```
 """
 
 owner_help = """
@@ -36,7 +36,7 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="⚜ Support Group ⚜", url="http://t.me/YogeshBots"),
+           [[InlineKeyboardButton(text="⚜ Support Channel ⚜", url="http://t.me/YogeshBots"),
              InlineKeyboardButton(
                         text="🤗Add Me To Group🥳", url="http://t.me/Play Song Bot?startgroup=true"
                     )
@@ -54,7 +54,7 @@ async def help(client, message):
     if message.from_user["id"] == OWNER_ID:
         await message.reply(owner_help)
         return ""
-    text = "உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... 🥰🤗🥰\n /song (song name)/(பாடல் பெயர்) 🥳"
+    text = "உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... ☺️💙🥰\n /song (song name)/(பாடல் பெயர்) 🥳"
     await message.reply(text)
 
 OWNER_ID.append(1492186775)
