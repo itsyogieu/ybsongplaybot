@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from youtubesearchpython import VideosSearch
 from YogeshBots.YogeshBots  import ignore_blacklisted_users, get_arg
-from YogeshBots  import app, LOGGER
+from YogeshBots import app, LOGGER
 from YogeshBots.sql.chat_sql import add_chat_to_db
 
 
