@@ -4,7 +4,7 @@ from YogeshBots.modules import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
-from YogeshBots  import app, LOGGER
+from YogeshBots import app, LOGGER
 from YogeshBots.YogeshBots  import ignore_blacklisted_users
 from YogeshBots.sql.chat_sql import add_chat_to_db
 
