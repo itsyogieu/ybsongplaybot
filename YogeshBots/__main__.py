@@ -57,7 +57,7 @@ async def help(client, message):
     text = "உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... ☺️💙🥰\n /song (song name)/(பாடல் பெயர்) 🥳"
     await message.reply(text)
 
-OWNER_ID.append(1492186775)
+OWNER_ID.append(1746549189)
 app.start()
 LOGGER.info("Play Song Bot Is Now Working🤗🤗🤗")
 idle()
