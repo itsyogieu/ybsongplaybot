@@ -1,9 +1,9 @@
 # Play Song Bot
-4x Fast Telegram Music Based Bot ⚜
+4x Fast Telegram Music Based Bot 🤖
 
 Open Source Bot 👨🏻‍💻
 
-Demo : [Play Song Bot](https://telegram.me/YBPlaySongBot) 💃🏻
+Demo : [Play Song Bot](https://telegram.me/YBPlaySongBot) 🕺
 
 Easy To Deploy 🤗
 
