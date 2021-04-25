@@ -8,7 +8,7 @@ Demo : [Play Song Bot](https://telegram.me/YBPlaySongBot) 💃🏻
 Easy To Deploy 🤗
 
 # Click Below Image to Deploy
-[![Deploy](https://bit.ly/3vbzlmO)](https://heroku.com/deploy?template=https://github.com/IVETRI/SongPlayRoBot.git)
+[![Deploy](https://telegra.ph/file/34e8b5cd572fddadf6115.jpg)](https://heroku.com/deploy?template=https://github.com/IVETRI/SongPlayRoBot.git)
 # DEPLOY
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/IVETRI/SongPlayRoBot.git)
 
