@@ -1,6 +1,6 @@
 {
     "name": "Play Song Bot",
-    "logo": "https://telegra.ph/file/cb7b0aead06c96955323e.jpg",
+    "logo": "https://telegra.ph/file/34e8b5cd572fddadf6115.jpg",
     "description": "Grabs song from yt and sends it to telegram by @YogeshBots",
     "env": {
         "API_ID": {
