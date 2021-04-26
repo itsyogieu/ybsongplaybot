@@ -13,7 +13,8 @@ start_text = """
 
 நான் YB Play Song Bot! [🎶](https://telegra.ph/file/34e8b5cd572fddadf6115.jpg)
 
-I'M Music Bot By @YogeshBots 🤖
+I'M Music Bot By @YogeshBots 
+⚠️You must subscribe our channel in order to use me😇
 
 உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... ☺️💙
 
@@ -36,9 +37,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="⚜ Support Channel ⚜", url="http://t.me/YogeshBots"),
+           [[InlineKeyboardButton(text="⚜ Join Channel ⚜", url="http://telegram.me/YogeshBots"),
              InlineKeyboardButton(
-                        text="🤗Add Me To Group🥳", url="http://t.me/YBPlaySongBot?startgroup=true"
+                        text="💫Add Me To Group🥳", url="http://t.me/YBPlaySongBot?startgroup=true"
                     )
                 ]
             ]
