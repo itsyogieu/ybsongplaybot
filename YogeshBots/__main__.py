@@ -59,5 +59,5 @@ async def help(client, message):
 
 OWNER_ID.append(1746549189)
 app.start()
-LOGGER.info("Play Song Bot Is Now Working🤗🤗🤗")
+LOGGER.info("YB Play Song Bot Is Now Working🤗🤗🤗")
 idle()
