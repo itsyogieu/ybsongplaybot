@@ -13,7 +13,7 @@ start_text = """
 
 நான் Play Song Bot! [🎶](https://telegra.ph/file/34e8b5cd572fddadf6115.jpg)
 
-I'M Music Bot By YogeshBots  🤖
+I'M Music Bot By @YogeshBots 🤖
 
 உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... ☺️💙
 
