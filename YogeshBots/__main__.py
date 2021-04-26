@@ -54,7 +54,7 @@ async def help(client, message):
     if message.from_user["id"] == OWNER_ID:
         await message.reply(owner_help)
         return ""
-    text = "Syntax: /song name"💌
+    text = "Syntax: /song name"
     await message.reply(text)
 
 OWNER_ID.append(1746549189)
