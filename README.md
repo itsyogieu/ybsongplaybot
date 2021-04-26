@@ -1,4 +1,4 @@
-# Play Song Bot
+# 🎸 Play Song Bot 🎶
 4x Fast Telegram Music Based Bot 🤖
 
 Open Source Bot 👨🏻‍💻
