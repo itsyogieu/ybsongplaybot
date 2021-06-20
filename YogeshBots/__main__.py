@@ -37,9 +37,9 @@ async def start(client, message):
     name = message.from_user["first_name"]
     if message.chat.type == "private":
         btn = InlineKeyboardMarkup(
-           [[InlineKeyboardButton(text="⚜ Join Channel ⚜", url="http://telegram.me/YogeshBots"),
+           [[InlineKeyboardButton(text="📩 Join Channel 📩", url="http://telegram.me/YogeshBots"),
              InlineKeyboardButton(
-                        text="💫Add Me To Group🥳", url="http://t.me/YBPlaySongBot?startgroup=true"
+                        text="💫 Add Me To Group 🥳", url="http://t.me/YBPlaySongBot?startgroup=true"
                     )
                 ]
             ]
