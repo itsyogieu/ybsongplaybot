@@ -29,7 +29,23 @@ owner_help = """
 /chatlist get list of all chats
 """
 
-
+@app.on_message(pyrogram.filters.command(["help"]))
+async def help_user(bot, update):
+    update_channel = Config.UPDATE_CHANNEL
+    if update_channel:
+        try:
+            user = await bot.get_chat_member(update_channel, update.chat.id)
+            if user.status == "kicked":
+               await update.reply_text(" Sorry, You are **B A N N E D**")
+               return
+        except UserNotParticipant:
+            await update.reply_text(
+                text="**Please Join My Update Channel Before Using Me..**",
+                reply_markup=InlineKeyboardMarkup([
+                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
+              ])
+            )
+            return
 @app.on_message(filters.create(ignore_blacklisted_users) & filters.command("start"))
 async def start(client, message):
     chat_id = message.chat.id
