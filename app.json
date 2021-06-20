@@ -15,6 +15,11 @@
             "description": "Get this value by making a bot from @BotFather.",
             "required": true
         },
+        "FORCE_SUB": {
+            "description": "A telegram channel username without @ to force users to join channel before using bot.",
+            "required": true
+        },
+        
         "OWNER_ID": {
             "description": "Your telegram user id.",
             "required": true
