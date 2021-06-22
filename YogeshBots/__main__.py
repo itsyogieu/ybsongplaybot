@@ -18,7 +18,7 @@ I'M Music Bot By @YogeshBots
 
 உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... ☺️💙
 
-Eg :- ```/song marandhaye```or Paste YouTube link
+Eg :- ```/song marandhaye``` (or) Paste Yt link
 """
 
 owner_help = """
