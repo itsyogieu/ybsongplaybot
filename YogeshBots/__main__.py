@@ -14,11 +14,11 @@ start_text = """
 நான் YB Play Song Bot! [🎶](https://telegra.ph/file/34e8b5cd572fddadf6115.jpg)
 
 I'M Music Bot By @YogeshBots 
-⚠️You must subscribe our channel in order to use me😇
+⚠️You must Join our channel in order to use me😇
 
 உங்களுக்கு தேவையான பாடலின் பெயரை அனுப்பவும்... ☺️💙
 
-Eg :- ```/song marandhaye```
+Eg :- ```/song marandhaye```or Paste YouTube link
 """
 
 owner_help = """
